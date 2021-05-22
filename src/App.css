@@ -1,0 +1,35 @@
+.root {
+
+}
+
+.startBtn {
+  justify-content: flex-end !important;
+}
+
+.grid-inside {
+  flex-grow: 1;
+}
+
+.grid-inside span {
+  width: 150px;
+}
+
+.input-list div {
+  justify-content: space-between;
+  display: flex;
+  margin: 15px;
+}
+
+.grid-root {
+  flex-grow: 1;
+}
+
+.selectedEmail {
+  background-color: #f2f2f2;
+}
+
+.email-body {
+  background-color: #f2f2f2;
+  height: 100vh;
+  padding: 15px;
+}

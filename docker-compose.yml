@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  mailclient-frontend:
+    build:
+      context: .
+    ports:
+      - 3000:3000
+    environment:
+      - SERVER_PORT=3000
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    command: npm run start
